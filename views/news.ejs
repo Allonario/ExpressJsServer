@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <%- include('./partials/head');%>
+    <link rel="stylesheet" type="text/css" href="../../../css/news.css">
+</head>
+<body>
+    <header id = 'header'>
+        <div id = 'navigationContainer'>
+            <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                <div class="container-fluid">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href='/admin' id='profilesList'>Список пользователей</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href='/admin/profile/<%= id%>' id = 'profile'>Пользователь</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href='/admin/profile/<%= id%>/friends' id = 'friends'>Друзья</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link active" href='/admin/profile/<%= id%>/news' id = 'news'>Новости</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <div id = 'mainContainer'>
+        <h1>Новости</h1>
+        <div id = 'newsContainer'></div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="module" src="../../../js/news.min.js"></script>
+</body>
+</html>

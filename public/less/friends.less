@@ -1,0 +1,57 @@
+@primary-color: #007bff;
+@hovered-color: #0c1146;
+
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: @primary-color;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+  margin: 20px 0;
+}
+
+#profilesTable {
+  width: 30%;
+  border-collapse: collapse;
+  background-color: #fff;
+  margin: 20px 0;
+}
+
+#profilesTable th {
+  background-color: @primary-color;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  a {
+    color: #fff;
+    text-decoration: none;
+    &:hover{
+      color: @hovered-color;
+    }
+  }
+}

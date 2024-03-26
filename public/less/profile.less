@@ -1,0 +1,81 @@
+@primary-color: #007bff;
+@hovered-color: #0c1146;
+
+.edit-button {
+  background-color: @primary-color;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover{
+    background-color: @hovered-color;
+  }
+}
+
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+#header {
+  background-color: @primary-color;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+}
+
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+#photoUploadContainer{
+  display: flex;
+  flex-direction: column;
+  #photoInput{
+    display: none;
+  }
+  #inputLabel{
+    background-color: #337ab7;
+    text-align: center;
+    color: white;
+    width: 200px;
+    padding: 10px;
+    cursor: pointer;
+    &:hover{
+      background-color: @hovered-color;
+    }
+  }
+}
+
+#nameContainer {
+  margin: 10px 0 10px 0;
+  span {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  #nameButton {
+    .edit-button;
+  }
+}
+
+#birthDateContainer, #emailContainer {
+  margin-top: 10px;
+  b {
+    font-weight: bold;
+  }
+  span {
+    font-size: 16px;
+  }
+  button.editButton {
+    .edit-button;
+  }
+}

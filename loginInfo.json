@@ -1,0 +1,30 @@
+{
+  "letoJared@gmail.com": {
+    "id": 1,
+    "password": "aaasss"
+  },
+  "go1vs1noob@cd.sdk": {
+    "id": 2,
+    "password": "dddddd"
+  },
+  "arthurarthur@wuk.com": {
+    "id": 3,
+    "password": "bbbbbb"
+  },
+  "alexmarkush2004@gmail.com": {
+    "password": "dsad",
+    "id": 4
+  },
+  "lalalaall@madl.lf": {
+    "password": "111111",
+    "id": 5
+  },
+  "john@example.com": {
+    "password": "password123",
+    "id": 6
+  },
+  "Apenok_AS@mail.ru": {
+    "password": "222222222",
+    "id": 7
+  }
+}

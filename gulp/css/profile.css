@@ -1,0 +1,92 @@
+.edit-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.edit-button:hover {
+  background-color: #0c1146;
+}
+.navbar-expand-lg .navbar-collapse {
+  display: flex !important;
+}
+body {
+  font-family: Arial, sans-serif;
+}
+#header {
+  background-color: #007bff;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+  padding: 10px;
+}
+#mainContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+}
+#photoUploadContainer {
+  display: flex;
+  flex-direction: column;
+}
+#photoUploadContainer #photoInput {
+  display: none;
+}
+#photoUploadContainer #inputLabel {
+  background-color: #337ab7;
+  text-align: center;
+  color: white;
+  width: 200px;
+  padding: 10px;
+  cursor: pointer;
+}
+#photoUploadContainer #inputLabel:hover {
+  background-color: #0c1146;
+}
+#nameContainer {
+  margin: 10px 0 10px 0;
+}
+#nameContainer span {
+  font-size: 20px;
+  font-weight: bold;
+}
+#nameContainer #nameButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#nameContainer #nameButton:hover {
+  background-color: #0c1146;
+}
+#birthDateContainer,
+#emailContainer {
+  margin-top: 10px;
+}
+#birthDateContainer b,
+#emailContainer b {
+  font-weight: bold;
+}
+#birthDateContainer span,
+#emailContainer span {
+  font-size: 16px;
+}
+#birthDateContainer button.editButton,
+#emailContainer button.editButton {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#birthDateContainer button.editButton:hover,
+#emailContainer button.editButton:hover {
+  background-color: #0c1146;
+}

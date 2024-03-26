@@ -1,0 +1,113 @@
+{
+  "1": {
+    "name": "Джаред Лето",
+    "email": "letoJared@gmail.com",
+    "friends": [
+      4
+    ],
+    "birthDate": "08.11.2023",
+    "role": "user",
+    "status": "verified",
+    "news": [
+      {
+        "date": "20.11.2023 17:35:10",
+        "text": "нет"
+      },
+      {
+        "date": "19.11.2023 01:23:41",
+        "text": "Согласен"
+      }
+    ],
+    "photo": "/img/1_image.png"
+  },
+  "2": {
+    "name": "Дмитрий Кривоченков",
+    "email": "go1vs1noob@cd.sdk",
+    "friends": [],
+    "birthDate": "10.10.1980",
+    "role": "user",
+    "status": "not verified",
+    "news": [],
+    "photo": "/img/2_image.png"
+  },
+  "3": {
+    "name": "Сартур Масаев",
+    "email": "arthurarthur@wuk.com",
+    "friends": [],
+    "birthDate": "12.10.2023",
+    "role": "user",
+    "status": "blocked",
+    "news": [],
+    "photo": "/img/3_image.png"
+  },
+  "4": {
+    "name": "Александр ",
+    "email": "alexmarkush2004@gmail.com",
+    "friends": [
+      1
+    ],
+    "birthDate": "01.11.2023",
+    "role": "admin",
+    "status": "verified",
+    "news": [
+      {
+        "date": "20.11.2023 18:57:38",
+        "text": "Привет"
+      },
+      {
+        "date": "20.11.2023 17:35:26",
+        "text": "ок"
+      },
+      {
+        "date": "20.11.2023 17:34:17",
+        "text": "ок"
+      },
+      {
+        "date": "20.11.2023 17:32:20",
+        "text": "lf"
+      },
+      {
+        "date": "19.11.2023 01:22:25",
+        "text": "Сегодня был хороший день"
+      }
+    ],
+    "photo": "/img/4_image.png"
+  },
+  "5": {
+    "name": "Муха-Цокотуха",
+    "email": "lalalaall@madl.lf",
+    "friends": [
+      4
+    ],
+    "birthDate": "02.11.2023",
+    "role": "user",
+    "status": "not verified",
+    "news": [
+      {
+        "date": "20.11.2023 17:33:32",
+        "text": "ytn"
+      }
+    ],
+    "photo": "/img/5_image.png"
+  },
+  "6": {
+    "name": "John Doe",
+    "email": "john@example.com",
+    "friends": [],
+    "birthDate": "01.01.1990",
+    "role": "user",
+    "status": "not verified",
+    "news": [],
+    "photo": ""
+  },
+  "7": {
+    "name": "Allon",
+    "email": "Apenok_AS@mail.ru",
+    "friends": [],
+    "birthDate": "01.11.2023",
+    "role": "user",
+    "status": "not verified",
+    "news": [],
+    "photo": ""
+  }
+}
